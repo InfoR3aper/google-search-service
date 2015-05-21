@@ -1,0 +1,24 @@
+{
+  "name": "google-search-service",
+  "version": "0.1.0",
+  "description": "REST API for returning google search results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbfranklin/google-search-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbfranklin/google-search-service/issues"
+  },
+  "homepage": "https://github.com/cbfranklin/google-search-service#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.12.4",
+    "request": "^2.55.0"
+  }
+}
