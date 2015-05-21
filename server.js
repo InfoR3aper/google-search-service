@@ -8,7 +8,6 @@ app.use('/', express.static(__dirname + '/html'));
 
 
 app.get('/search', function(req, res) {
-	//q should be encoded on front-end!
 	var query = req.query.q;
 	var googleQuery = 'https://www.google.com/search?q=' + query;
 	console.log(googleQuery)
